@@ -1,0 +1,278 @@
+body {
+    width: 1366px;
+    height: 768px;
+    min-width: 1300px;
+    max-width: 1500px;
+    min-height: 750px;
+    max-height: 790px;
+    margin: 0 auto;
+    padding: 0;
+    background: #2C3C5D;
+}
+
+.background{
+    margin: 0 auto;
+}
+
+.background img{
+    width:1366px;
+    height:768px;
+}
+
+.ru{
+    text-align: right;
+    padding: 1px 245px;
+    margin: -35px auto;
+    position: relative;
+    top: -690px;
+}
+
+
+.logo{
+    padding: 0px 60px;
+    margin: 0px 80px;
+    position: relative;
+    top: -540px;
+    text-align: center;
+}
+
+.Isatel-logo{
+    margin: 1px auto;
+    padding: 45px 80px;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu > ul > li{
+    position: relative;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    position: relative;
+    top: -110px;
+    right: 270px;
+    margin: 1px auto;
+    color: #8A8E94;
+    font-size: 12px;
+    line-height: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 25px 15px;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+ul li a:hover{
+     color: white;
+     border: 1px solid #194EF5;
+     border-radius: 0 0 12px 12px;
+}
+
+.logo img{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.Avtorisation{
+    position: relative;
+    top: -530px;
+    left: 495px;
+    width: 376px;
+    height: 197px;
+    margin: 1px 0;
+    background: #212C42 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 14px 14px 0px 0px;
+    opacity: 1;
+    color: white;
+}
+
+.Avtorisation h2{
+    position: relative;
+    top: 25px;
+    text-align: center;
+
+}
+
+
+.Avtorisation p{
+position: relative;    
+text-align: -webkit-center;
+top: 20px;
+left: -10px;
+color: var(--unnamed-color-ffffff);
+font: normal normal normal 13px/14px Ubuntu;
+letter-spacing: 0px;
+}
+
+.Avtorisation p input{
+position: relative;
+top: 0;
+left: 10px;
+width: 209px;
+height: 32px;
+text-align: left;
+background: #2C3C5D 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 14px;
+
+}
+
+
+button{
+    position: relative;
+    top: 45px;
+    left: 0;
+    width: 376px;
+    height: 41px;
+    background: #194EF5 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 14px 14px;
+    opacity: 1;
+}
+
+
+.chat{
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.chat p{
+    position: relative;
+    left: 485px;
+    top: -432;
+    width: 76px;
+    height: 28px;
+    font-size: 10px;
+}
+
+
+
+
+.aboutus{
+    position: relative;
+    top: -530px;
+    left: 705px;
+    width: 165px;
+    height: 90px;
+    background: #212C42 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+}
+
+.aboutus p{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+}
+
+.icons{
+    position: relative;
+    top: -201px;
+    left: 1100px;
+    margin: 52px 20px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+    width: 225px;
+}
+
+.text-icon{
+    display: inline; 
+    margin-right: 5px;   
+    padding: 3px;
+}
+
+.icons p i{
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+
+.icons-item{
+    position: relative;
+    top: -200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 8px 78px;
+    width: 1198px;
+}
+
+.icons-item i{
+    font-size: 40px;
+    margin: 2px 10px;
+    color: #fff;
+}
+
+
+
+.icons-item p{
+    text-align: left;
+    display: flex;
+    font-size: 12px;
+}
+
+.text-icon1{
+    position: relative;
+    top: -6;
+}
+
+
+.text-icon2{
+    position: relative;
+    top: 15px;
+}
+
+.pay {
+    position: relative;
+    top: -267px;
+    left: 852px;
+    width: 487px;
+    height: 42px;
+    border-radius: 14px;
+    background: #212C42;
+}
+
+.info{
+    position: relative;
+    top: -220px;
+    width: 682px;
+    height: 288px;
+    border-radius: 14px;
+    background: #212C42;
+    margin: 11px 70px;
+}
+
+.balance{
+    position: relative;
+    top: -519px;
+    left: 778px;
+    width: 487px;
+    height: 288px;
+    border-radius: 14px;
+    background: #212C42;
+    margin: 11px 70px;
+}
+
+.news{
+    position: relative;
+    top: -500px;
+    margin: 11px 70px;
+    width: 377px;
+    height: 183px;
+    border-radius: 14px;
+    background: #212C42;
+}
