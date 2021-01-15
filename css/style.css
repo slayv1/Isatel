@@ -239,16 +239,28 @@ button{
 .pay {
     position: relative;
     top: -267px;
-    left: 852px;
+    left: 780px;
     width: 487px;
     height: 42px;
     border-radius: 14px;
     background: #212C42;
+    color: #fff;
+}
+
+.pay p{
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.pay i{
+    position: relative;
+    top: -43px;
+    left: 390px;
 }
 
 .info{
     position: relative;
-    top: -220px;
+    top: -245px;
     width: 682px;
     height: 288px;
     border-radius: 14px;
@@ -256,10 +268,20 @@ button{
     margin: 11px 70px;
 }
 
+.info button{
+    position: relative;
+    top: 205px;
+    left: 285px;
+    width: 355px;
+    height: 42px;
+    border-radius: 14px;
+    background: #194EF5
+}
+
 .balance{
     position: relative;
-    top: -519px;
-    left: 778px;
+    top: -545px;
+    left: 715px;
     width: 487px;
     height: 288px;
     border-radius: 14px;
@@ -267,12 +289,71 @@ button{
     margin: 11px 70px;
 }
 
+.balance button{
+    position: relative;
+    top: 70px;
+    left: 305px;
+    width: 147px;
+    height: 42px;
+    border-radius: 14px;
+    background: #194EF5;
+}
+
 .news{
     position: relative;
-    top: -500px;
+    top: -525px;
     margin: 11px 70px;
     width: 377px;
     height: 183px;
     border-radius: 14px;
     background: #212C42;
+}
+
+.news button {
+    position: relative;
+    top: 110px;
+    left: 210px;
+    width: 134px;
+    height: 42px;
+    border: 2px solid #194EF5;
+    border-radius: 14px;
+}
+
+.service{
+    position: relative;
+    top: -719px;
+    left: 445px;
+    width: 597px;
+    height: 183px;
+    border-radius: 14px;
+    background: #212C42;
+    margin: 5px 35px;
+}
+
+.service button{
+    position: relative;
+    top: 131px;
+    margin: 14px 14px;
+    width: 167px;
+    height: 31px;
+    border-radius: 0px 0px 14px 14px;
+    background: #194EF5;
+   
+}
+
+.about1{
+    position: relative;
+    top: -825px;
+    left: 1113px;
+    width: 165px;
+    height: 90px;
+    background: #212C42;
+    border-radius: 14px;
+}
+
+.about1 p{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
 }
