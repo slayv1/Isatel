@@ -1,4 +1,5 @@
 body {
+    font-family:  Raleway;
     width: 1366px;
     height: 768px;
     min-width: 1300px;
@@ -10,6 +11,10 @@ body {
     background: #2C3C5D;
 }
 
+
+/*background*/
+
+
 .background{
     margin: 0 auto;
 }
@@ -19,27 +24,44 @@ body {
     height:768px;
 }
 
+/*ru icon*/
+
 .ru{
     text-align: right;
     padding: 1px 245px;
     margin: -35px auto;
     position: relative;
     top: -690px;
+    color: #fff;
 }
 
+.ru  i{
+    position: relative;
+    top: 2px;
+}
+
+/*logotip*/
 
 .logo{
-    padding: 0px 60px;
-    margin: 0px 80px;
     position: relative;
-    top: -540px;
-    text-align: center;
+    top: -605px;
+    left: 590px;
+    width: 150px;
 }
+
+
+.logo img{
+    text-align: center;
+    margin: 10px 10px;
+}
+
 
 .Isatel-logo{
     margin: 1px auto;
     padding: 45px 80px;
 }
+
+/*main menu*/
 
 .menu{
     text-align: right;
@@ -72,27 +94,25 @@ body {
 }
 
 ul li a:hover{
-     color: white;
-     border: 1px solid #194EF5;
-     border-radius: 0 0 12px 12px;
+    position: relative;
+    color: white;
+    background: #194EF5;
+    border-radius: 12px 12px 12px 12px;
+     
 }
 
-.logo img{
-    text-align: center;
-    margin: 10px 10px;
-}
+/*avtorisation*/
 
 .Avtorisation{
     position: relative;
-    top: -530px;
-    left: 495px;
+    top: -605px;
+    left: 507px;
     width: 376px;
     height: 197px;
     margin: 1px 0;
-    background: #212C42 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
+    background: #212C42;
+    box-shadow: none;
     border-radius: 14px 14px 0px 0px;
-    opacity: 1;
     color: white;
 }
 
@@ -140,7 +160,13 @@ button{
 }
 
 
+/*chat*/
+
 .chat{
+    position: relative;
+    top: -523px;
+    left: 30px;
+    color: #707070;
     margin: 0 auto;
     padding: 10px 10px;
 }
@@ -148,19 +174,29 @@ button{
 .chat p{
     position: relative;
     left: 485px;
-    top: -432;
     width: 76px;
     height: 28px;
-    font-size: 10px;
+    margin: 8px;
+    font-size: 13px;
 }
 
+.chat i{
+    position: absolute;
+    display: flex;
+    top: -21px;
+    left: 82px;
+    font-size: 30px;
+    border: 15px solid #fff;
+    border-radius: 30px;
+    color: #194EF5;
+}
 
-
+/*read us*/ 
 
 .aboutus{
     position: relative;
-    top: -530px;
-    left: 705px;
+    top: -619px;
+    left: 722px;
     width: 165px;
     height: 90px;
     background: #212C42 0% 0% no-repeat padding-box;
@@ -171,8 +207,89 @@ button{
     position: relative;
     top: 15px;
     left: 15px;
-    color: white;
+    color: #8A8E94;
 }
+
+.aboutus i{
+    position: relative;
+    left: 15px;
+    margin: 8px 5px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.about1 p{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: #707070;
+}
+
+.about1 i{
+    position: relative;
+    left: 15px;
+    margin: 8px 5px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.about1{
+    position: relative;
+    top: -893px;
+    left: 1113px;
+    width: 165px;
+    height: 90px;
+    background: #212C42;
+    border-radius: 14px;
+}
+
+/*question*/
+
+.question{
+    position: relative;
+    top: -626px;
+    left: 514px;
+    width: 470px;
+    color: #8A8E94;
+    font-size: 14px;
+}
+
+
+.question p{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+
+
+.question i{
+    position: absolute;
+    top: 1px;
+    margin: -2px -35px;
+    left: 10px;
+    border: 4px solid #fff;
+    border-radius: 31px;
+    font-size: 10px;
+}
+
+/*ISP*/
+
+.ISP{
+    position: absolute;
+    top: 726px;
+    left: 767px;
+    width: 233px;
+    padding: 10px 120px;
+    font-size: 11px;
+    color: #707070;
+}
+
+.ISP a{
+    color: #fff;
+}
+
+/*icons*/
 
 .icons{
     position: relative;
@@ -236,6 +353,8 @@ button{
     top: 15px;
 }
 
+/*pay*/
+
 .pay {
     position: relative;
     top: -267px;
@@ -258,6 +377,8 @@ button{
     left: 390px;
 }
 
+/*information*/
+
 .info{
     position: relative;
     top: -245px;
@@ -268,15 +389,97 @@ button{
     margin: 11px 70px;
 }
 
+.info p{
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.info h3{
+    position: relative;
+    top: -8px;
+    left: 269px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.info h4{
+    position: relative;
+    top: -166px;
+    left: 440px;
+    color: #fff;
+    font-size: 12px;
+}
+
 .info button{
     position: relative;
-    top: 205px;
+    top: -170px;
     left: 285px;
     width: 355px;
     height: 42px;
     border-radius: 14px;
     background: #194EF5
 }
+
+/*traffic info*/
+
+.traffic {
+    position: relative;
+    top: 1px;
+    left: 292px;
+    width: 134px;
+}
+
+.traffic p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #8A8E94;
+}
+
+.traffic i{
+    position: relative;
+    right: 135px;
+}
+
+.traffic h2{
+    position: relative;
+    top: -15px;
+    color: #fff;
+    font-size: 17px;
+}
+
+/*speed info*/
+
+.speed{
+    position: relative;
+    top: -162px;
+    left: 461px;
+    width: 134px;
+
+}
+
+.speed p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    height: 16px;
+    color: #8A8E94;
+}
+
+.speed i{
+    position: relative;
+    right: 135px;
+}
+
+.speed h2{
+    position: relative;
+    top: -15px;
+    color: #fff;
+    font-size: 17px;
+}
+
+/*balance info*/
 
 .balance{
     position: relative;
@@ -289,15 +492,147 @@ button{
     margin: 11px 70px;
 }
 
+.balance p{
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.balance h2{
+    position: relative;
+    top: -20px;
+    left: 34px;
+    padding: 12px 20px;
+    color: #fff;
+}
+
 .balance button{
     position: relative;
-    top: 70px;
+    top: -85px;
     left: 305px;
     width: 147px;
     height: 42px;
     border-radius: 14px;
     background: #194EF5;
 }
+
+.balance h3{
+    position: relative;
+    top: -90px;
+    left: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.balance i{
+    position: relative;
+    right: 189px;
+}
+
+.paybalance{
+    position: relative;
+    top: -80px;
+}
+
+.paybalance p{
+    position: relative; 
+    top: -11px;
+    color: #8A8E94;
+}
+
+.paybalance i{
+    position: relative;
+    top: -23px;
+    right: 129px;
+    color: #8A8E94;
+}
+
+.paybalance h3{
+    position: relative;
+    top: -50px;
+    left: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.paybalance2{
+    position: relative;
+    top: -192px;
+    left: 167px;
+}
+
+.paybalance2 p{
+    position: relative; 
+    top: -29px;
+    color: #8A8E94;
+}
+
+.paybalance2 i{
+    position: relative;
+    top: -23px;
+    right: 150px;
+    color: #8A8E94;
+}
+
+.paybalance2 h3{
+    position: relative;
+    top: -66px;
+    left: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.paybalance3 {
+    position: relative;
+    top: -320px;
+    left: 345px;
+}
+
+.paybalance3 p{
+    position: relative; 
+    top: -29px;
+    color: #8A8E94;
+}
+
+.paybalance3 i{
+    position: relative;
+    top: -23px;
+    right: 85px;
+    color: #8A8E94;
+}
+
+.paybalance3 h3{
+    position: relative;
+    top: -66px;
+    left: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+/*result*/
+
+.result{
+    position: relative;
+    top: -407px;
+    left: 30px;
+}
+
+.result p{
+    color: #8A8E94;
+}
+
+.result i{
+    position: relative;
+    top: 1px;
+    right: 215px;
+    color: #8A8E94;
+}
+
+/*news*/
 
 .news{
     position: relative;
@@ -319,6 +654,8 @@ button{
     border-radius: 14px;
 }
 
+/*service*/
+
 .service{
     position: relative;
     top: -719px;
@@ -330,30 +667,74 @@ button{
     margin: 5px 35px;
 }
 
-.service button{
+.service p{
+    padding: 15px 15px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
+.ser1{
     position: relative;
-    top: 131px;
-    margin: 14px 14px;
+    left: 11px;
+    margin: 11px 10px;
+    display: inline-block;
+    width: 167px;
+    height: 86px;
+    border-radius: 14px 14px 0 0;
+    background: #2C3C5D;
+}
+
+.ser1 img{
+    padding: 26px 16px;
+}
+
+.ser1 button{
+    position: relative;
+    top: -20px;
+    margin: 13px 0px;
     width: 167px;
     height: 31px;
     border-radius: 0px 0px 14px 14px;
     background: #194EF5;
-   
 }
 
-.about1{
-    position: relative;
-    top: -825px;
-    left: 1113px;
-    width: 165px;
-    height: 90px;
-    background: #212C42;
-    border-radius: 14px;
+
+
+
+
+button{
+    color: #fff;
 }
 
-.about1 p{
+
+.help-chat{
     position: relative;
-    top: 15px;
-    left: 15px;
-    color: white;
+    top: -905px;
+    left: 10px;
+    color: #707070;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 111px;
+}
+
+.help-chat p{
+    position: relative;
+    left: 485px;
+    width: 76px;
+    height: 28px;
+    margin: 8px;
+    font-size: 13px;
+}
+
+.help-chat i{
+    position: absolute;
+    display: flex;
+    top: -21px;
+    left: 82px;
+    font-size: 30px;
+    border: 15px solid #fff;
+    border-radius: 30px;
+    color: #194EF5;
 }
