@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Isatel</title>
+    <link rel="stylesheet" href="css/Chart.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="fonts/css/all.css" type="text/css"/>
 </head>
@@ -30,14 +31,14 @@
     </div>
     <div class="icons-item">
         <i class="fas fa-id-badge"></i>
-            <p>Мирзоев Сухроб</p>
-            <p>Лицевой счет: 981</p>
+            <p class="up">Мирзоев Сухроб</p>
+            <p class="down">Лицевой счет: 981</p>
         <i class="fas fa-phone-square-alt"></i>
-            <p>Номер колл-центра:</p>
-            <p>+992 44 601 3434</p>  
+            <p class="up1">Номер колл-центра:</p>
+            <p class="down1">+992 44 601 3434</p>  
         <i class="far fa-calendar-alt"></i>
-            <p>10.09.20</p><p>ср</p>
-            <p>09:30:25</p>
+            <p class="up2"><strong>10.09.20</strong></p><p class="month">ср</p>
+            <p class="down2">09:30:25</p>
     </div>
     <div class="pay">
             <p>Подключи опцию "Обещанный платеж"</p>
@@ -47,6 +48,10 @@
     <div class="info">
             <p>Основная информация</p> 
             <h3>Потраченный трафик</h3>
+            
+            <canvas id="myChart"></canvas>
+         
+           
                 <div class="traffic">
                    <p>Входящий трафик
                    </p>
@@ -101,7 +106,8 @@
             </div>
     </div>
     <div class="news">
-           <button></button>
+            <p>Последняя новость компании</p>
+           <button>Подробнее</button>
     </div>
     <div class="service">
         <p>Рекомендуемые услуги</p>
@@ -131,4 +137,6 @@
         <i class="fas fa-globe"></i>
     </div>
     <p class="ISP">© 2020 | <a href="index.html">ISP ISATEL</a>| ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/main.js"></script>
 </body>

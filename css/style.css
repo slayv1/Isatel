@@ -1,5 +1,5 @@
 body {
-    font-family:  Raleway;
+    font-family: Arial, Helvetica, sans-serif;
     width: 1366px;
     height: 768px;
     min-width: 1300px;
@@ -79,7 +79,7 @@ body {
 .menu ul li a{
     position: relative;
     top: -110px;
-    right: 270px;
+    right: 310px;
     margin: 1px auto;
     color: #8A8E94;
     font-size: 12px;
@@ -93,13 +93,37 @@ body {
     width: 100px;
 }
 
+/* Убираем стандартный вывод метки списка */
+ul {
+    list-style-type: none;
+}
+/* Нужно обязательно указать высоту строки и позиционирование */
+ul li {
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+}
+ul li::before {
+    color: #194EF5;
+    content: "\2022";
+    font-size: 26px;
+    font-weight: 700;
+    left: -319px;
+    line-height: 18px;
+    position: absolute;
+    top: -88px;
+}
+
 ul li a:hover{
     position: relative;
-    color: white;
-    background: #194EF5;
+    text-decoration: underline;
     border-radius: 12px 12px 12px 12px;
-     
+    color: #fff;
+    text-decoration-color:#194EF5;
+    text-decoration-thickness: 3px;
 }
+
+
 
 /*avtorisation*/
 
@@ -144,6 +168,7 @@ text-align: left;
 background: #2C3C5D 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 14px;
+border: 1px solid #2C3C5D;
 
 }
 
@@ -277,16 +302,18 @@ button{
 
 .ISP{
     position: absolute;
-    top: 726px;
+    top: 735px;
     left: 767px;
-    width: 233px;
+    width: 250px;
     padding: 10px 120px;
     font-size: 11px;
     color: #707070;
+    
 }
 
 .ISP a{
     color: #fff;
+    text-decoration: none;
 }
 
 /*icons*/
@@ -322,9 +349,10 @@ button{
 .icons-item{
     position: relative;
     top: -200px;
+    right: 25px;
     display: flex;
     margin: 0 auto;
-    padding: 8px 78px;
+    padding: 5px 80px;
     width: 1198px;
 }
 
@@ -336,11 +364,65 @@ button{
 
 
 
-.icons-item p{
-    text-align: left;
-    display: flex;
+.up{
+    position: relative;
+    top: -5px;
+    float: left;
     font-size: 12px;
+    color: #8A8E94;
 }
+
+.down{
+    position: relative;
+    top: 14px;
+    right: 93px;
+    float: left;
+    font-size: 11px;
+    color: #8A8E94;
+}
+
+.up1{
+    position: relative;
+    top: -5px;
+    float: left;
+    font-size: 12px;
+    color: #8A8E94;
+}
+
+.down1{
+    position: relative;
+    top: 14px;
+    right: 110px;
+    float: left;
+    font-size: 11px;
+    color: #fff;
+}
+
+.up2{
+    position: relative;
+    top: -15px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+}
+
+.down2{
+   
+    position: relative;
+    top: 18px;
+    right: 89px;
+    float: left;
+    font-size: 12px;
+    color: #8A8E94;
+}
+
+.month{
+    position: relative;
+    top: -7px;
+    left: 7px;
+    color: #8A8E94;
+}
+
 
 .text-icon1{
     position: relative;
@@ -373,8 +455,8 @@ button{
 
 .pay i{
     position: relative;
-    top: -43px;
-    left: 390px;
+    top: -45px;
+    left: 396px;
 }
 
 /*information*/
@@ -388,6 +470,18 @@ button{
     background: #212C42;
     margin: 11px 70px;
 }
+
+
+
+
+#myChart {
+    position: absolute;
+    top: -70px;
+    right: 207px;
+  }
+
+
+
 
 .info p{
     padding: 15px 25px;
@@ -455,7 +549,7 @@ button{
     position: relative;
     top: -162px;
     left: 461px;
-    width: 134px;
+    width: 138px;
 
 }
 
@@ -526,7 +620,7 @@ button{
 
 .balance i{
     position: relative;
-    right: 189px;
+    right: 208px;
 }
 
 .paybalance{
@@ -543,8 +637,9 @@ button{
 .paybalance i{
     position: relative;
     top: -23px;
-    right: 129px;
+    right: 145px;
     color: #8A8E94;
+
 }
 
 .paybalance h3{
@@ -571,7 +666,7 @@ button{
 .paybalance2 i{
     position: relative;
     top: -23px;
-    right: 150px;
+    right: 170px;
     color: #8A8E94;
 }
 
@@ -600,7 +695,7 @@ button{
 .paybalance3 i{
     position: relative;
     top: -23px;
-    right: 85px;
+    right: 90px;
     color: #8A8E94;
 }
 
@@ -628,7 +723,7 @@ button{
 .result i{
     position: relative;
     top: 1px;
-    right: 215px;
+    right: 231px;
     color: #8A8E94;
 }
 
@@ -644,12 +739,19 @@ button{
     background: #212C42;
 }
 
+.news p{
+    margin: 1px 1px;
+    padding: 10px 10px;
+    color: #fff;
+}
+
 .news button {
     position: relative;
-    top: 110px;
+    top: 81px;
     left: 210px;
     width: 134px;
     height: 42px;
+    background: #212C42;
     border: 2px solid #194EF5;
     border-radius: 14px;
 }
@@ -677,11 +779,13 @@ button{
 
 .ser1{
     position: relative;
-    left: 11px;
+    top: -10px;
+    left: 10px;
     margin: 11px 10px;
     display: inline-block;
     width: 167px;
     height: 86px;
+    border: 1px solid #194EF5;
     border-radius: 14px 14px 0 0;
     background: #2C3C5D;
 }
@@ -693,19 +797,19 @@ button{
 .ser1 button{
     position: relative;
     top: -20px;
+    left: -1px;
     margin: 13px 0px;
-    width: 167px;
+    width: 169px;
     height: 31px;
     border-radius: 0px 0px 14px 14px;
     background: #194EF5;
 }
 
 
-
-
-
 button{
     color: #fff;
+    border: 1px solid #194EF5;
+    text-decoration: none;
 }
 
 
